@@ -1,0 +1,23 @@
+{
+  "files.exclude": {
+    "**/.vscode": false,
+    "**/node_modules": false,
+    "**/.husky": true,
+    ".npmrc": true,
+    "**commitlint.config.js": true,
+    "**.gitignore": true,
+    "**.eslintcache": true,
+    "**.eslintrc.json": false,
+    "**.gitmodules": true,
+    "**.prettierrc": true,
+    "**package-lock.json": true,
+    "**/.github": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "workbench.settings.editor": "json"
+}
